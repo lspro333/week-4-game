@@ -1,0 +1,23 @@
+body {
+	background: url("../images/fresh_snow_@2X.png");
+}
+
+
+.row {
+	margin-bottom: 10px;
+}
+
+.randomNumberDiv {
+	background-color: lightgreen;
+	border: 2px solid black;
+}
+
+.winsLossesDiv {
+	background-color: lightblue;
+	border: 2px solid black;
+}
+
+.scoreDiv {
+	background-color: pink;
+	border: 2px solid black;
+}

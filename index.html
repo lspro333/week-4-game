@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystals Collector Game</title>
+
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="jumbotron" style="border:4px solid black">
+			<!-- Header -->
+			<h1>Crystals Collector!</h1><br>
+			<!-- Instructions -->
+			<h3>You will be given a random number at the start of the game.</h3>
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<p>You win the game by matching your total score to random number. You lose the game if your total score goes above the random number.</p>
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+			<p>Each time when the game starts, the game will change the values of each crystal.</p>
+		</div>
+
+		<!-- Random number and wins/losses tally -->
+		<div class="row">
+			<div class="col-md-3 col-md-offset-1 randomNumberDiv">
+				<p>Random Number:</p>
+				<h2 id="randomNumber">random#</h2>
+			</div>
+			<div class="col-md-3 col-md-offset-1 winsLossesDiv">
+				<h3 id="winsTally">Wins: </h3>
+				<h3 id="lossesTally">losses: </h3>
+			</div>
+		</div>
+
+		<!-- Crystals -->
+		<div class="row">
+			<div class="col-md-2 gem" value="gem1">
+				<img src="assets/images/gem1.png" class="img-responsive" alt="Gem1" style="width:120px;height:120px;">
+			</div>
+			<div class="col-md-2 gem" value="gem2">
+				<img src="assets/images/gem2.png" class="img-responsive" alt="Gem2" style="width:120px;height:120px;">
+			</div>
+			<div class="col-md-2 gem" value="gem3">
+				<img src="assets/images/gem3.png" class="img-responsive" alt="Gem3" style="width:120px;height:120px;">
+			</div>
+			<div class="col-md-2 gem" value="gem4">
+				<img src="assets/images/gem4.png" class="img-responsive" alt="Gem4" style="width:120px;height:120px;">
+			</div>
+		</div>
+		
+		<!-- Your total score is -->
+		<div class="row">
+			<div class="col-md-3 col-md-offset-1 scoreDiv">
+				<h3>Your total score is:</h3>
+			</div>
+		</div>
+
+		<!-- User score tally -->
+		<div class="row">
+			<div class="col-md-3 col-md-offset-1 scoreDiv">
+				<h2 id="userScore">score</h2>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Link to game javascript file -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
