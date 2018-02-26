@@ -51,7 +51,7 @@ $(document).ready(function() {
 	// debugging function
 	function consoleLogVariables() {
 		console.log("wins: " + wins + " losses: " + losses);
-		console.log(gem1value, "gem1value + ", gem2value, "+ gem2value + ", gem3value, "+ gem3value + ", gem4value, "+ gem4value");
+		console.log( gem1value, " gem1value, ", gem2value, " gem2value, ", gem3value, " gem3value, ", gem4value, " gem4value ");
 		console.log("randomNumber: " + randomNumber + " userScore: " + userScore);
 
 	}

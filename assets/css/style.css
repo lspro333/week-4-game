@@ -8,16 +8,16 @@ body {
 }
 
 .randomNumberDiv {
-	background-color: lightgreen;
+	background-color: rgb(144, 238, 222);
 	border: 2px solid black;
 }
 
 .winsLossesDiv {
-	background-color: lightblue;
+	background-color: rgb(114, 187, 214);
 	border: 2px solid black;
 }
 
 .scoreDiv {
-	background-color: pink;
+	background-color: rgb(236, 255, 192);
 	border: 2px solid black;
 }
